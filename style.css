@@ -1,0 +1,88 @@
+
+.main {
+  background-image:url('quran.jpg');
+  color:brown;
+  padding: 3px;
+}
+
+/*defining the caption class: title*/
+.titles {
+  font-size:16pt;
+}
+
+/*/abouts class defining*/
+.abouts {
+  background-image:url('logo.jpg');
+  padding:3px;
+  color: black;
+  text-align: center;
+}
+p{
+  color:blue;
+}
+
+/* span class info styling */
+.info{
+  color: red;
+  text-decoration: underline;
+}
+
+/* Styling studying class */
+.studying{
+  background-image:url('bookholding.jpg');
+  padding: 3px;
+  
+}
+
+.great{
+  color:red;
+  filter: brightness(100%);
+  animation-name: light-blink;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* definign sop */
+.sop {
+  color: blue;
+  border: 2px solid green;
+  padding: 2px;
+}
+
+
+/* defining animations named light-blink */
+@keyframes light-blink{
+  from{filter: brightness(1000%);color:red; }
+  to{filter:brightness(0%);color:green;}
+}
+
+@keyframes register{
+  from{
+    background-color: green;
+  }
+  to{
+    background-color: burlywood;
+  }
+}
+
+/* Defining join com */
+.joincom{
+  background-image: url('community.png');
+}
+
+.register-button{
+  border: none;
+  animation-name: register;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  width:100px;
+  height:50px;
+}
+
+.exp{
+  color:crimson;
+}
+
+.usertypes{
+  color:cadetblue;
+}
