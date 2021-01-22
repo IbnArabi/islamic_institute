@@ -1,0 +1,32 @@
+body{
+  background-color: blanchedalmond;
+  font-family: 'Catamaran', sans-serif;
+  
+}
+
+#error::before{
+  
+  color:crimson;
+  align-left: 50%;
+  padding: 15px;
+}
+
+#error::after{
+  background-color:#db7d7d;
+  color:crimson;
+  align-left: 50%;
+  padding: 15px;
+}
+input{
+  padding: 5px;
+  align-left: 50%;
+}
+
+label{
+  align-left: 50%;
+}
+
+h1{
+  float: right;
+  font-size: 16pt;
+}
